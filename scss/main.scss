@@ -1,5 +1,5 @@
 * {
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
 
 }
 
@@ -58,25 +58,47 @@
 
 
 
-.carousel-inner {
 
-  max-width: 100%;
-  padding-top: 100px;
-  text-align: center;
-  align-items: center;
-  font-size: 100%;
- 
-  image { width: 100%;
-      
-  }
 
-  p {
-    display: flex;
-    font-size: 50px;
-    margin: 100px;
-    padding: 100px;
-  }
+body {
+  background-color: black;
 }
 
+.carousel-inner {
+
+  max-width: fit-content;
+
+}
+
+.carousel-caption {
+
+position: relative;
+max-width: fit-content;
+margin-top: 1.5rem;
  
 
+ 
+}
+
+.carousel-item {
+
+ 
+  max-width: fit-content;
+  
+  margin-top: 1rem;
+}
+  
+ 
+
+  p {
+    position: relative;
+    color: hsl(0, 71%, 46%);
+    font-size: 12px;
+    display: block;
+    align-content: flex-end
+
+
+  }
+
+
+ 

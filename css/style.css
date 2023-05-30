@@ -1,5 +1,5 @@
 * {
-  background-color: #ffffff; }
+  background-color: white; }
 
 .card-group {
   padding: 29px;
@@ -22,16 +22,24 @@
   max-width: 300px;
   margin: auto; }
 
+body {
+  background-color: black; }
+
 .carousel-inner {
-  max-width: 100%;
-  padding-top: 100px;
-  text-align: center;
-  align-items: center;
-  font-size: 100%; }
-  .carousel-inner image {
-    width: 100%; }
-  .carousel-inner p {
-    display: flex;
-    font-size: 50px;
-    margin: 100px;
-    padding: 100px; }
+  max-width: fit-content; }
+
+.carousel-caption {
+  position: relative;
+  max-width: fit-content;
+  margin-top: 1.5rem; }
+
+.carousel-item {
+  max-width: fit-content;
+  margin-top: 1rem; }
+
+p {
+  position: relative;
+  color: #c92222;
+  font-size: 12px;
+  display: block;
+  align-content: flex-end; }

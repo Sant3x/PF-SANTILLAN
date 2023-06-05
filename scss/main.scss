@@ -30,6 +30,8 @@
 
   padding: 0;
   margin: 0;
+  display: block;
+
 
 
 
@@ -72,33 +74,130 @@ body {
 
 .carousel-caption {
 
-position: relative;
-max-width: fit-content;
-margin-top: 1.5rem;
- 
+  position: relative;
+  max-width: fit-content;
+  margin-top: 1.5rem;
 
- 
+
+
 }
 
 .carousel-item {
 
- 
+
   max-width: fit-content;
-  
+  max-height: fit-content;
+
   margin-top: 1rem;
 }
-  
- 
-
-  p {
-    position: relative;
-    color: hsl(0, 71%, 46%);
-    font-size: 12px;
-    display: block;
-    align-content: flex-end
 
 
+
+p {
+  position: relative;
+  color: hsl(0, 71%, 46%);
+  font-size: 12px;
+  display: block;
+  align-content: flex-end
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+
+  height: 100%;
+  /* Full height */
+
+}
+
+li a {
+  display: block;
+  background-color: black;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: sans-serif
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.navbar-nav {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+.dropdown-item {
+
+  margin: 0;
+  padding: 0;
+
+
+
+
+
+
+
+}
+
+.container-fluid li {
+
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif
+}
+
+.dropdown-menu li {
+
+  text-decoration-color: #000;
+
+}
+
+.card-body h5 {
+
+  color: blueviolet;
+  font-size: large;
+}
+
+.card-body p {
+
+  color: black;
+  font-family: sans-serif;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+
+
+.card-body {
+
+  border-color: #f2f2f2;
+
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 300%;
+    width: 300%;
   }
 
-
- 
+  to {
+    margin-left: 0%;
+    width: 300%;
+  }
+}

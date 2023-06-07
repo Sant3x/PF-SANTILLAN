@@ -155,10 +155,11 @@ li a:hover {
 
 .container-fluid li {
 
-  width: 100vw;
-  margin: 0;
+  max-width:  100vh;
   padding: 0;
-  font-family: sans-serif
+  font-family: cursive
+
+ 
 }
 
 .dropdown-menu li {
@@ -183,12 +184,7 @@ li a:hover {
 
 
 
-.card-body {
-
-  border-color: #f2f2f2;
-
-}
-
+ 
 
 @keyframes slidein {
   from {
@@ -201,3 +197,23 @@ li a:hover {
     width: 300%;
   }
 }
+
+.container-fluid a {
+
+  color: rgb(226, 95, 43);
+  display: flex;
+ 
+  text-align: center;
+  width: auto;
+  
+}
+
+.container-fluid ul {
+
+ border-style:hidden;
+ 
+}
+
+$grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px );
+
+ 
